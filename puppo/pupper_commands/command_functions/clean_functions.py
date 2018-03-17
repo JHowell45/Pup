@@ -5,7 +5,7 @@ from shutil import rmtree
 
 from click import echo, style
 
-from pup.decorator_functions.display_decorators import command_handler
+from puppo.decorator_functions.display_decorators import command_handler
 from tqdm import tqdm
 
 
