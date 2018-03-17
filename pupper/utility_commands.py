@@ -5,7 +5,7 @@ from pupper import cli
 @cli.command()
 @click.argument('root_directories', nargs=-1)
 def clean(root_directories):
-    """Use this command to remove all cached files.
+    """Remove all cached files and directories.
 
     This command is used for deleting all of the '__pycache__' directories and
     '.pyc' files. Useful if you're getting errors do to with a mismatch between
