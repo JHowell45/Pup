@@ -12,6 +12,14 @@ click = "*"
 
 [dev-packages]
 
+bpython = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-isort = "*"
+"pytest-pep8" = "*"
+codecov = "*"
+isort = "*"
+"pep8" = "*"
 
 
 [requires]
