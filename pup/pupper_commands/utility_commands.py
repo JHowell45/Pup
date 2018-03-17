@@ -2,9 +2,9 @@
 import click
 from click import Path
 
-from pupper import cli
-from pupper.decorator_functions.display_decorators import command_handler
-from pupper.pupper_commands.command_functions.clean_functions import \
+from pup import cli
+from pup.decorator_functions.display_decorators import command_handler
+from pup.pupper_commands.command_functions.clean_functions import \
     clean_directory
 from tqdm import tqdm
 

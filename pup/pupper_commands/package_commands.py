@@ -1,5 +1,5 @@
 """Commands for packaging up python applications."""
-from pupper import cli
+from pup import cli
 
 
 @cli.group()
