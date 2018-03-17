@@ -35,14 +35,15 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         ],
-    keywords='python commands scripts',  # Optional
+    keywords='python commands scripts',
+    py_modules=['pupper'],  # Optional
     install_requires=[
         'click',
     ],
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
-    extras_require={  # Optional
-        'test': ['pytest', 'pytest-cov', 'pytest-isort', 'pytest-pep8'],
-        },
+    entry_points='''
+        [console_scripts]
+        pupper=__init__:cli
+    ''',
     # List additional URLs that are relevant to your project as a dict.
     #
     # This field corresponds to the "Project-URL" metadata fields:
