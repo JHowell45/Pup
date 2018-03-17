@@ -1,5 +1,4 @@
-"""
-"""
+"""Utility commands."""
 import click
 from pupper import cli
 
