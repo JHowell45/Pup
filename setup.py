@@ -39,6 +39,7 @@ setup(
     py_modules=['pupper'],  # Optional
     install_requires=[
         'click',
+        'tqdm',
     ],
     entry_points='''
         [console_scripts]
