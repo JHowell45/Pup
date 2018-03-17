@@ -53,7 +53,6 @@ def clean_directory(root_directory, verbose):
     __print_issues(incorrect_directory) if incorrect_directory else None
 
 
-
 @command_handler('issues', colour='red')
 def __print_issues(issues):
     """Use this function to display issues."""
