@@ -1,7 +1,7 @@
 """Scaffolding commands for creating and setting up projects."""
 import click
 
-from pup import cli
+from puppo import cli
 
 
 @cli.group()
