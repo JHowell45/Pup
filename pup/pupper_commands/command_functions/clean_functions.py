@@ -5,7 +5,7 @@ from shutil import rmtree
 
 from click import echo, style
 
-from pupper.decorator_functions.display_decorators import command_handler
+from pup.decorator_functions.display_decorators import command_handler
 from tqdm import tqdm
 
 
@@ -26,10 +26,10 @@ def clean_directory(root_directory, verbose):
         # Delete '.pyc' files in directory:
         files_to_remove = \
             [python_file for python_file in files if '.pyc' in python_file]
-        if files_to_remove and verbose:
+        if files_to_remove and not verbose:
             for python_file in tqdm(files_to_remove, desc="Deleting files"):
                 remove('{}/{}'.format(root, python_file))
-        if files_to_remove and not verbose:
+        if files_to_remove and verbose:
             for python_file in files_to_remove:
                 file_path = '{}/{}'.format(root, python_file)
                 print(file_path)

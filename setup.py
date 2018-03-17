@@ -14,7 +14,7 @@ here = abspath(dirname(__file__))
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='pupper',  # Required
+    name='pup',  # Required
     version='0.1.0',  # Required
     description=('Scripts and commands for running tasks to make your python '
                  'experience easier.'),  # Required
@@ -36,14 +36,14 @@ setup(
         'Programming Language :: Python :: 3.6',
         ],
     keywords='python commands scripts',
-    py_modules=['pupper'],  # Optional
+    py_modules=['pup'],  # Optional
     install_requires=[
         'click',
         'tqdm',
     ],
     entry_points='''
         [console_scripts]
-        pupper=__init__:cli
+        pup=__init__:cli
     ''',
     # List additional URLs that are relevant to your project as a dict.
     #
