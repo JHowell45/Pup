@@ -1,22 +1,38 @@
 {
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\__init__.py": [
+    1521300914.189088,
+    []
+  ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\pupper\\__init__.py": [
-    1521295578.8097484,
+    1521299131.0936656,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\pupper\\package_commands.py": [
+    1521300899.8875637,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\pupper\\scaffold_comands.py": [
+    1521300898.4136164,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\pupper\\utility_commands.py": [
+    1521300897.0877953,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\setup.py": [
-    1521295687.298997,
+    1521298705.0182123,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\tests\\__init__.py": [
-    1521295583.3756447,
+    1521298126.2367568,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\tests\\conftest.py": [
-    1521295598.081834,
+    1521298126.2372575,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Pupper\\tests\\fixtures\\__init__.py": [
-    1521295624.3080816,
+    1521298126.239759,
     []
   ]
 }
