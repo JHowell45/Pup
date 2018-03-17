@@ -1,5 +1,6 @@
 """Scaffolding commands for creating and setting up projects."""
 import click
+
 from pupper import cli
 
 

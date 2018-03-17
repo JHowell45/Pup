@@ -1,6 +1,8 @@
 """Utility commands."""
 import click
+
 from pupper import cli
+
 
 @cli.command()
 @click.argument('root_directories', nargs=-1)
