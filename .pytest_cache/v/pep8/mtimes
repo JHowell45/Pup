@@ -75,6 +75,10 @@
     1521317469.8752272,
     []
   ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\decorator_functions\\package_decorator.py": [
+    1521411260.2917995,
+    []
+  ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\__init__.py": [
     1521407770.622987,
     []
@@ -92,7 +96,7 @@
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\command_functions\\package_functions\\pypi_fuctions.py": [
-    1521410997.0827727,
+    1521411302.8856244,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\package_commands.py": [
@@ -104,11 +108,19 @@
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\utility_commands.py": [
-    1521410118.7525575,
+    1521411198.2561617,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\utility_commands\\__init__.py": [
     1521410298.16018,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\utility_functions\\__init__.py": [
+    1521410298.16018,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\utility_functions\\terminal_functions.py": [
+    1521411316.3560424,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\setup.py": [

@@ -40,6 +40,7 @@ setup(
     install_requires=[
         'click',
         'tqdm',
+        'twine',
     ],
     entry_points='''
         [console_scripts]

@@ -4,10 +4,9 @@ This file contains functions used for packaging and uploading python packages
 to the PYPI store.
 """
 from os import getcwd
-from subprocess import Popen
 
 from puppo.decorator_functions.package_decorator import packaging_handler
-from puppo.utility_commands.terminal_functions import run_command
+from puppo.utility_functions.terminal_functions import run_command
 
 
 def package_application(testpypi, verbose):
