@@ -75,12 +75,28 @@
     1521317469.8752272,
     []
   ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\__init__.py": [
+    1521407770.622987,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\command_functions\\__init__.py": [
+    1521407772.1467338,
+    []
+  ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\command_functions\\clean_functions.py": [
     1521317712.6884685,
     []
   ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\command_functions\\package_functions\\__init__.py": [
+    1521407784.5278018,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\command_functions\\package_functions\\pypi_fuctions.py": [
+    1521410997.0827727,
+    []
+  ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\package_commands.py": [
-    1521317707.6868181,
+    1521410096.6192575,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\scaffold_comands.py": [
@@ -88,11 +104,15 @@
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\pupper_commands\\utility_commands.py": [
-    1521317701.5329216,
+    1521410118.7525575,
+    []
+  ],
+  "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\puppo\\utility_commands\\__init__.py": [
+    1521410298.16018,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\setup.py": [
-    1521317773.914387,
+    1521410979.212968,
     []
   ],
   "A:\\JacobHowell\\ProgrammingProjects\\PythonPackages\\Puppo\\tests\\conftest.py": [
