@@ -15,7 +15,7 @@ here = abspath(dirname(__file__))
 
 setup(
     name='puppo',  # Required
-    version='0.2.0',  # Required
+    version='0.2.1',  # Required
     description=('Scripts and commands for running tasks to make your python '
                  'experience easier.'),  # Required
     author='Jacob Howell',  # Optional
@@ -36,11 +36,14 @@ setup(
         'Programming Language :: Python :: 3.6',
         ],
     keywords='python commands scripts',
-    py_modules=['__init__'],  # Optional
+    py_modules=[
+        '__init__',
+        'puppo',
+        ],  # Optional
     install_requires=[
         'click',
         'tqdm',
-    ],
+        ],
     entry_points='''
         [console_scripts]
         puppo=__init__:cli
