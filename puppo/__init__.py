@@ -10,7 +10,7 @@ import click
 def cli():
     """Scripts and commands for making Python easier.
 
-    Pupper is a list of commands and scripts designed to making python
+    Puppo is a list of commands and scripts designed to making python
     packages, applications, webpages and anything else you can think of easier.
     """
     pass

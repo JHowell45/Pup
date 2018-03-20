@@ -1,5 +1,5 @@
-"""root file for loading the pupper application."""
+"""root file for loading the puppo application."""
 from puppo import cli
-from puppo.pupper_commands.utility_commands import clean
-from puppo.pupper_commands.scaffold_comands import scaffold
-from puppo.pupper_commands.package_commands import package
+from puppo.puppo_commands.utility_commands import clean
+from puppo.puppo_commands.scaffold_comands import scaffold
+from puppo.puppo_commands.package_commands import package
