@@ -15,7 +15,7 @@ here = abspath(dirname(__file__))
 
 setup(
     name='puppo',  # Required
-    version='1.0.0',  # Required
+    version='0.2.0',  # Required
     description=('Scripts and commands for running tasks to make your python '
                  'experience easier.'),  # Required
     author='Jacob Howell',  # Optional
