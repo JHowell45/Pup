@@ -4,9 +4,9 @@ from os.path import abspath
 from shutil import rmtree
 
 from click import echo, style
+from tqdm import tqdm
 
 from puppo.decorator_functions.display_decorators import command_handler
-from tqdm import tqdm
 
 
 def clean_directory(root_directory, verbose):
