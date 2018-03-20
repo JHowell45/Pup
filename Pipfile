@@ -8,6 +8,7 @@ name = "pypi"
 [packages]
 
 click = "*"
+tqdm = "*"
 
 
 [dev-packages]
@@ -20,6 +21,7 @@ pytest-isort = "*"
 codecov = "*"
 isort = "*"
 "pep8" = "*"
+"e1839a8" = {path = ".", editable = true}
 
 
 [requires]
