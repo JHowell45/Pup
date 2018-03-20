@@ -36,7 +36,9 @@ setup(
         'Programming Language :: Python :: 3.6',
         ],
     keywords='python commands scripts',
-    py_modules=['__init__'],  # Optional
+    py_modules=[
+        '__init__',
+        'puppo'],  # Optional
     install_requires=[
         'click',
         'tqdm',
