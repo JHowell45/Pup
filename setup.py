@@ -15,7 +15,7 @@ here = abspath(dirname(__file__))
 
 setup(
     name='puppo',  # Required
-    version='1.0.1',  # Required
+    version='0.4.0',  # Required
     description=('Scripts and commands for running tasks to make your python '
                  'experience easier.'),  # Required
     author='Jacob Howell',  # Optional
@@ -38,8 +38,14 @@ setup(
     keywords='python commands scripts',
     py_modules=[
         '__init__',
-        'puppo',
+        'puppo.',
         ],  # Optional
+    packages=[
+        'puppo',
+        'puppo.puppo_commands',
+        'puppo.puppo_commands.command_functions',
+        'puppo.decorator_functions',
+        ],
     install_requires=[
         'click',
         'tqdm',
@@ -58,7 +64,7 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/JHowell45/Pupper/issues',
-        'Source': 'https://github.com/JHowell45/Pupper/',
+        'Bug Reports': 'https://github.com/JHowell45/Puppo/issues',
+        'Source': 'https://github.com/JHowell45/Puppo/',
         },
     )
