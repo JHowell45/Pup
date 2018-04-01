@@ -35,13 +35,12 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         ],
-    keywords='python commands scripts',
-    py_modules=['puppo'],  # Optional
+    keywords='python commands scripts packaging',
     install_requires=[
         'click',
         'tqdm',
         'twine',
-    ],
+        ],
     entry_points='''
         [console_scripts]
         puppo=__init__:cli
