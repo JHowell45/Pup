@@ -24,7 +24,7 @@ def package():
 @click.option('-v', '--verbose', is_flag=True,
               help="Display additional information.")
 def pypi(test, verbose):
-    """packaging and uploading to PYPI.
+    """Packaging and uploading to PYPI.
 
     This command is used for creating a 'sdist' for the curernt directory using
     the 'setup.py' file and then uploading it to the PYPI python package store.
