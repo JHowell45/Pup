@@ -30,12 +30,11 @@ def __create_package(verbose):
     :param verbose: used to decide whether or not to print additional
                     information.
     """
+    base_command = ['{}/setup.py'.format(getcwd()), 'sdist']
     try:
-        result = \
-            run_command(['python3', '{}/setup.py'.format(getcwd()), 'sdist'])
+        result = run_command(['python3'] + base_command)
     except Exception:
-        result = \
-            run_command(['python', '{}/setup.py'.format(getcwd()), 'sdist'])
+        result = run_command(['python'] + base_command)
     print(result)
 
 
@@ -46,4 +45,25 @@ def __upload_package(testpypi, verbose):
     :param verbose: used to decide whether or not to print additional
                     information.
     """
-    pass
+    base_command = ['twine', 'upload']
+    dist_location = ['{}/dist/*'.format(getcwd())]
+    if testpypi:
+        try:
+            result = run_command(
+                base_command + ['--repository', 'testpypi'] + dist_location)
+        except Exception:
+            result = run_command(
+                base_command +
+                ['--repository-url' 'https://test.pypi.org/legacy/'] +
+                dist_location
+                )
+    else:
+        try:
+            result = run_command(base_command + dist_location)
+        except Exception:
+            result = run_command(
+                base_command +
+                ['--repository-url' 'https://test.pypi.org/legacy/'] +
+                dist_location
+                )
+    print(result)
