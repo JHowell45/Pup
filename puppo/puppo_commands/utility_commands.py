@@ -21,8 +21,10 @@ def clean(directories, verbose):
     '.pyc' files. Useful if you're getting errors do to with a mismatch between
     the python file and it's cached counterpart.
 
-    :argument: directories -- the directories to search for '__pycache__'
-                                   directories and '.pyc' files and remove.
+    :param: directories -- the directories to search for '__pycache__'
+                           directories and '.pyc' files and remove.
+    :param verbose: used to decide whether or not to print additional
+                    information.
     """
     for root_directory in tqdm(directories, desc="Directories cleaned"):
         clean_directory(root_directory, verbose)

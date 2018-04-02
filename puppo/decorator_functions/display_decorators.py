@@ -11,7 +11,7 @@ def command_handler(command_title, colour='green'):
         """Nested decorator function."""
         terminal_width = int(get_terminal_size()[0])
         title = ' {} '.format(command_title)
-        banner_length = int((terminal_width - len(title)) / 2)
+        banner_length = int(int((terminal_width - len(title)) / 2) - 1)
         banner = '-' * banner_length
         command_banner = '|{0}{1}{0}|'.format(
             banner, title.title())

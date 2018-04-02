@@ -15,7 +15,7 @@ here = abspath(dirname(__file__))
 
 setup(
     name='puppo',  # Required
-    version='0.4.0',  # Required
+    version='0.5.0',  # Required
     description=('Scripts and commands for running tasks to make your python '
                  'experience easier.'),  # Required
     author='Jacob Howell',  # Optional
@@ -35,36 +35,24 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         ],
-    keywords='python commands scripts',
-    py_modules=[
-        '__init__',
-        'puppo.',
-        ],  # Optional
-    packages=[
-        'puppo',
-        'puppo.puppo_commands',
-        'puppo.puppo_commands.command_functions',
-        'puppo.decorator_functions',
-        ],
+    keywords='python commands scripts packaging',
+    packages=find_packages(exclude=[
+        "*.tests",
+        "*.tests.*",
+        "tests.*",
+        "tests",
+        "docs",
+        "build",
+        "htmlcov",
+        "dist",
+        ]),
     install_requires=[
         'click',
         'tqdm',
+        'twine',
         ],
     entry_points='''
         [console_scripts]
         puppo=__init__:cli
     ''',
-    # List additional URLs that are relevant to your project as a dict.
-    #
-    # This field corresponds to the "Project-URL" metadata fields:
-    # https://packaging.python.org/specifications/core-metadata/#project-url-multiple-use
-    #
-    # Examples listed include a pattern for specifying where the package tracks
-    # issues, where the source is hosted, where to say thanks to the package
-    # maintainers, and where to support the project financially. The key is
-    # what's used to render the link text on PyPI.
-    project_urls={  # Optional
-        'Bug Reports': 'https://github.com/JHowell45/Puppo/issues',
-        'Source': 'https://github.com/JHowell45/Puppo/',
-        },
     )
