@@ -1,12 +1,11 @@
 """Utility commands."""
 import click
 from click import Path
-from tqdm import tqdm
-
 from puppo import cli
 from puppo.decorator_functions.display_decorators import command_handler
-from puppo.puppo_commands.command_functions.clean_functions import \
+from puppo.puppo_commands.command_functions.utility_functions.clean import \
     clean_directory
+from tqdm import tqdm
 
 
 @cli.command()
