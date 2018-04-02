@@ -22,6 +22,7 @@
   "puppo/puppo_commands/command_functions/__init__.py",
   "puppo/puppo_commands/command_functions/clean_functions.py",
   "puppo/puppo_commands/command_functions/clean_functions.py",
+  "puppo/puppo_commands/command_functions/setup.py",
   "puppo/puppo_commands/command_functions/package_functions/__init__.py",
   "puppo/puppo_commands/command_functions/package_functions/__init__.py",
   "puppo/puppo_commands/command_functions/package_functions/pypi_fuctions.py",

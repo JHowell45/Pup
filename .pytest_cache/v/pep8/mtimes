@@ -1,0 +1,78 @@
+{
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/__init__.py": [
+    1522610298.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/__init__.py": [
+    1522657636.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/decorator_functions/__init__.py": [
+    1521450472.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/decorator_functions/display_decorators.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/decorator_functions/package_decorator.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/__init__.py": [
+    1522609990.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/command_functions/__init__.py": [
+    1522609990.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/command_functions/clean_functions.py": [
+    1522618249.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/command_functions/package_functions/__init__.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/command_functions/package_functions/pypi_fuctions.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/command_functions/setup.py": [
+    1522657636.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/package_commands.py": [
+    1522657716.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/scaffold_comands.py": [
+    1522609990.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/puppo_commands/utility_commands.py": [
+    1522657744.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/utility_functions/__init__.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/puppo/utility_functions/terminal_functions.py": [
+    1522657637.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/setup.py": [
+    1522657753.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/tests/conftest.py": [
+    1521450472.0,
+    []
+  ],
+  "/Users/jacobhowell/ProgrammingProjects/PythonPackageProjects/Puppo/tests/fixtures/__init__.py": [
+    1521450472.0,
+    []
+  ]
+}
