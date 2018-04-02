@@ -9,6 +9,7 @@ name = "pypi"
 
 click = "*"
 twine = "*"
+tqdm = "*"
 
 
 [dev-packages]

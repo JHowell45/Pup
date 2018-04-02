@@ -36,6 +36,16 @@ setup(
         'Programming Language :: Python :: 3.6',
         ],
     keywords='python commands scripts packaging',
+    packages=find_packages(exclude=[
+        "*.tests",
+        "*.tests.*",
+        "tests.*",
+        "tests",
+        "docs",
+        "build",
+        "htmlcov",
+        "dist",
+        ]),
     install_requires=[
         'click',
         'tqdm',
