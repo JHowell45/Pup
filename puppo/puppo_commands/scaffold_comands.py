@@ -29,6 +29,7 @@ def cli_applications():
 @cli_applications.command()
 @click.option('-aut', '--add-unittests', is_flag=True,
               help="Add Unittests directory for project.")
+@click.argument('name')
 def simple(add_unittests):
     """Create basic CLI application."""
     simple_scaffold.create_scaffold()
