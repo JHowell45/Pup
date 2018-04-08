@@ -41,4 +41,4 @@ def simple(add_unittests, name):
     :param name: the name of the CLI application to create.
     :type name: string
     """
-    simple_scaffold.create_scaffold(name)
+    simple_scaffold.create_scaffold(name, add_unittests)

@@ -14,7 +14,14 @@ def create_scaffold(application_name, add_tests):
     :param add_tests: whether or not to add a tests directory.
     :type add_tests: boolean
     """
-    application_directory = getcwd()
+    application_directory = '{}/{}'.format(getcwd(), application_name)
     print("Directory to create application in: {}".format(
         application_directory))
-    mkdir('{}/{}'.format(application_directory, application_name))
+    mkdir(application_directory)
+
+    # Create application:
+    mkdir('{}/app'.format(application_directory))
+
+    # Create test directory:
+    if add_tests:
+        mkdir('{}/tests'.format(application_directory))
