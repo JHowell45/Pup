@@ -1,8 +1,8 @@
 """Scaffolding commands for creating and setting up projects."""
 import click
 from puppo import cli
-from puppo.puppo_commands.command_functions.scaffold_functions.cli_scaffolds import \
-    simple_scaffold
+from puppo.puppo_commands.command_functions.scaffold_functions.cli_scaffolds \
+    import simple_scaffold
 
 
 @cli.group()
