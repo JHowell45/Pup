@@ -31,5 +31,14 @@ def cli_applications():
               help="Add Unittests directory for project.")
 @click.argument('name')
 def simple(add_unittests, name):
-    """Create basic CLI application."""
+    """Create basic CLI application.
+
+    This function is used for creating a basic CLI application using the
+    Click package.
+
+    :param add_unittests: whether or not to create a unittests directory.
+    :type add_unittests: boolean
+    :param name: the name of the CLI application to create.
+    :type name: string
+    """
     simple_scaffold.create_scaffold(name)
